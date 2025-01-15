@@ -15,7 +15,7 @@ Bicicleta.add = function (bici) {
 Bicicleta.removeById = function(id) {
 
     for(let i=0; i<this.allBicis.length; i++){
-        if(this.allBicis[i] == id){
+        if(this.allBicis[i].id == id){
             this.allBicis.splice(i, 1)
         }
     }
